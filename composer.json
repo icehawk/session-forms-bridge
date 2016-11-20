@@ -6,14 +6,17 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "hollodotme"
+			"name": "Holger Woltersdorf",
+			"email": "hw@hollo.me"
 		}
 	],
 	"support": {
 		"source": "https://github.com/icehawk/session-forms-bridge"
 	},
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.0",
+		"icehawk/session": "^1.0",
+		"icehawk/forms": "^1.0"
 	},
 	"require-dev": {
 		"tm/tooly-composer-script": "^1.0"

@@ -1,0 +1,219 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "026b667686afa80462371b848971da19",
+    "content-hash": "5a1386988326cfc8f353c4b9a144ba11",
+    "packages": [
+        {
+            "name": "icehawk/forms",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/icehawk/forms.git",
+                "reference": "e5a95920af7afadeed9337ad2b0f03a6949ddf7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/icehawk/forms/zipball/e5a95920af7afadeed9337ad2b0f03a6949ddf7c",
+                "reference": "e5a95920af7afadeed9337ad2b0f03a6949ddf7c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "tm/tooly-composer-script": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "tools": {
+                    "phpunit": {
+                        "url": "https://phar.phpunit.de/phpunit.phar",
+                        "only-dev": true
+                    },
+                    "phpmetrics": {
+                        "url": "https://github.com/phpmetrics/PhpMetrics/raw/master/build/phpmetrics.phar",
+                        "only-dev": true
+                    },
+                    "phpdox": {
+                        "url": "https://github.com/theseer/phpdox/releases/download/0.8.1.1/phpdox-0.8.1.1.phar",
+                        "only-dev": true
+                    },
+                    "coveralls": {
+                        "url": "https://github.com/satooshi/php-coveralls/releases/download/v1.0.1/coveralls.phar",
+                        "only-dev": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "IceHawk\\Forms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Holger Woltersdorf",
+                    "email": "hw@hollo.me"
+                }
+            ],
+            "description": "Forms component for the IceHawk framework",
+            "time": "2016-10-06 22:50:03"
+        },
+        {
+            "name": "icehawk/session",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/icehawk/session.git",
+                "reference": "ac54cb5fd0fd61f6f0211fe3ec736c41c49195de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/icehawk/session/zipball/ac54cb5fd0fd61f6f0211fe3ec736c41c49195de",
+                "reference": "ac54cb5fd0fd61f6f0211fe3ec736c41c49195de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "tm/tooly-composer-script": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "tools": {
+                    "phpunit": {
+                        "url": "https://phar.phpunit.de/phpunit.phar",
+                        "only-dev": true
+                    },
+                    "phpmetrics": {
+                        "url": "https://github.com/phpmetrics/PhpMetrics/raw/master/build/phpmetrics.phar",
+                        "only-dev": true
+                    },
+                    "phpdox": {
+                        "url": "https://github.com/theseer/phpdox/releases/download/0.8.1.1/phpdox-0.8.1.1.phar",
+                        "only-dev": true
+                    },
+                    "coveralls": {
+                        "url": "https://github.com/satooshi/php-coveralls/releases/download/v1.0.1/coveralls.phar",
+                        "only-dev": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "IceHawk\\Session\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Holger Woltersdorf",
+                    "email": "hw@hollo.me"
+                }
+            ],
+            "description": "Session registry component for the IceHawk framework",
+            "time": "2016-10-06 23:25:14"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "tm/tooly-composer-script",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tommy-muehle/tooly-composer-script.git",
+                "reference": "be34f34ebd83bd25ee388240fcb1b55f109adb6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tommy-muehle/tooly-composer-script/zipball/be34f34ebd83bd25ee388240fcb1b55f109adb6b",
+                "reference": "be34f34ebd83bd25ee388240fcb1b55f109adb6b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "composer/composer": "1.*",
+                "mikey179/vfsstream": "1.6.*",
+                "php-mock/php-mock-phpunit": "1.1.*",
+                "tm/gpg-verifier": "1.*"
+            },
+            "suggest": {
+                "tm/gpg-verifier": "Allows verification over GPG for PHAR tools."
+            },
+            "type": "library",
+            "extra": {
+                "tools": {
+                    "phpunit": {
+                        "url": "https://phar.phpunit.de/phpunit-5.5.0.phar"
+                    },
+                    "phpcpd": {
+                        "url": "https://phar.phpunit.de/phpcpd-2.0.4.phar"
+                    },
+                    "phpcs": {
+                        "url": "https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar",
+                        "force-replace": true
+                    },
+                    "phpmd": {
+                        "url": "http://static.phpmd.org/php/latest/phpmd.phar",
+                        "force-replace": true
+                    },
+                    "security-checker": {
+                        "url": "http://get.sensiolabs.org/security-checker.phar",
+                        "force-replace": true
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tooly\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tommy Muehle",
+                    "email": "tommy.muehle@gmail.com",
+                    "homepage": "https://tommy-muehle.de"
+                }
+            ],
+            "description": "Simple composer script to manage phar files.",
+            "homepage": "https://github.com/tommy-muehle/tooly-composer-script",
+            "keywords": [
+                "composer",
+                "composer-phar",
+                "composer-script",
+                "gpg-verification",
+                "phar",
+                "phar-handling",
+                "phar-management"
+            ],
+            "time": "2016-09-13 10:42:40"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}
